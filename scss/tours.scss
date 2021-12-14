@@ -1,0 +1,33 @@
+.tours-wrapper {
+  @include flex-centered;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.tour-hero {
+  width: 981px;
+  height: 200px;
+  background-image: url(../images/tour/tours-header.jpg);
+  @include cover-background;
+  @include flex-centered;
+  h1 {
+    text-align: left;
+    font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+    letter-spacing: 6px;
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+.tour-hero-wrap {
+  background-image: url(../images/tour/toursbigoverlay.svg);
+  @include cover-background;
+}
+.tour-gallery {
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  // card.scss
+}

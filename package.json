@@ -1,0 +1,14 @@
+{
+  "name": "travel-fly-final",
+  "version": "1.0.0",
+  "description": "N215 Travel-fly site",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "author": "Ariella Hardwick",
+  "license": "ISC"
+}

@@ -1,0 +1,119 @@
+// @use "mixins";
+//
+
+.blog-container {
+  // width: 100%;
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  .blog-page-title {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 75px;
+
+    h1 {
+      text-align: left;
+      //   font: normal normal 100 30px/40px Proxima Nova ScOsf Extra Condensed;
+      font-family: "Proxima-Nova-Thin";
+      font-size: 30px;
+      letter-spacing: 3px;
+      color: #000000;
+      opacity: 1;
+      text-transform: uppercase;
+      text-decoration: underline black;
+    }
+  }
+  .blog-entry {
+    opacity: 1;
+
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    .blog-entry-date {
+      //   margin-right: 20px;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .date {
+        background: #79addc 0% 0% no-repeat padding-box;
+        height: 60px;
+        width: 60px;
+        padding: 10px;
+        .day {
+          text-align: center;
+          // font: normal normal bold 22px/28px Gill Sans;
+          font-family: "Gill Sans";
+          font-size: 22px;
+          letter-spacing: 0px;
+          color: #ffffff;
+          opacity: 1;
+        }
+        .month {
+          text-align: center;
+          // font: normal normal 300 12px/15px Gill Sans;
+          font-family: "Gill Sans";
+          font-size: 12px;
+          letter-spacing: 0px;
+          color: #ffffff;
+          opacity: 1;
+        }
+      }
+    }
+    .blog-entry-content {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      .blog-entry-image {
+        width: 100%;
+        background-image: url(https://in-info-web4.informatics.iupui.edu/~arihardw/homework-seven/images/blog.jpg);
+        min-height: 259px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: plum;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+      }
+      .blog-entry-title {
+        // margin-top: 20px;
+        h2 {
+          text-align: left;
+          //   font: normal normal normal 15px/19px Gill Sans;
+          font-family: "Gill Sans";
+          font-size: 15px;
+          letter-spacing: 0px;
+          color: #000000;
+          opacity: 1;
+          margin-left: 20px;
+        }
+      }
+      .blog-entry-text {
+        margin-top: 10px;
+        margin-bottom: 10%;
+        margin-left: 20px;
+
+        p {
+          max-width: 380px;
+          text-align: left;
+          //   font: normal normal normal 13px/16px Gill Sans;
+          font-family: "Gill Sans";
+          font-size: 13px;
+          letter-spacing: 0px;
+          color: #79addc;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

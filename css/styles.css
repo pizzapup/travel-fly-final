@@ -1,0 +1,1144 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+nav #nav-content {
+  width: 90%;
+  margin-top: 30px;
+  padding-bottom: 25px;
+  text-align: left;
+  font: normal normal normal 15px/19px;
+  letter-spacing: 1.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #000;
+  border-bottom: #000 solid;
+}
+nav .homeNav {
+  color: #fff !important;
+  border-bottom: #fff solid !important;
+}
+nav .links {
+  width: 60%;
+}
+nav .links-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+}
+nav li a .nav-link-sep {
+  color: #79addc;
+}
+
+#Rectangle_6 {
+  stroke: #000;
+}
+
+a {
+  color: #000;
+}
+
+#travel-fly {
+  fill: #000;
+}
+
+.homeA {
+  color: #fff !important;
+}
+
+.homeRect {
+  stroke: #fff !important;
+}
+
+.homeTravelFly {
+  fill: #fff !important;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #79addc;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+
+.footer-copyright {
+  text-align: center;
+  font: normal normal normal 12px/15px Gill Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 10%;
+}
+
+.app {
+  width: 100%;
+  position: relative;
+}
+
+.home-page-wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: lightblue;
+  z-index: -99;
+}
+
+.page-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -99;
+}
+
+.home-hero {
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.home-hero-text {
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.home-hero-text p {
+  font: italic normal normal 20px/25px Gill Sans;
+}
+
+.readMoreButton {
+  width: 122px;
+  height: 40px;
+  margin-bottom: 25px;
+  background: #79addc 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.card-holder {
+  background-color: pink;
+  width: 236px;
+  height: 304px;
+  margin: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-content {
+  background-image: url(../images/overlay.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.card-top h2 {
+  font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+}
+.card-top p {
+  font: normal normal 100 30px/40px Proxima Nova ScOsf Extra Condensed;
+}
+
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-button {
+  background-color: #79addc;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  width: 133px;
+  height: 40px;
+}
+
+/* ------------------- special offers ------------------- */
+.offer-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 287px;
+  margin: 40px;
+}
+
+.offer-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 199px;
+  height: 287px;
+}
+.offer-image img {
+  width: 199px;
+  opacity: 1;
+  height: 100%;
+}
+
+.offer-details-holder {
+  width: 40%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer-description {
+  margin-top: 15px;
+}
+
+.offer-card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.offer-card-top .offer-title-h {
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.learnMoreButton {
+  width: 133px;
+  height: 40px;
+  background: #79addc 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  background-color: #79addc;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+}
+
+.learnMoreButton-holder {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.offer-discount {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ff7d38;
+  opacity: 1;
+  margin: 10px;
+}
+
+.tours-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+.tour-hero {
+  width: 981px;
+  height: 200px;
+  background-image: url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tour-hero h1 {
+  text-align: left;
+  font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+  letter-spacing: 6px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.tour-hero-wrap {
+  background-image: url(../images/tour/toursbigoverlay.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tour-gallery {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 70%;
+}
+
+.package-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.package-wrapper * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.package-hero {
+  height: 413px;
+  width: 981px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.package-hero h1 {
+  text-align: left;
+  font: normal normal 100 80px/106px Gill Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+}
+.package-hero p {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.package-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.package-card {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  width: 298px;
+  height: 347px;
+  opacity: 1;
+  margin: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-day {
+  text-align: left;
+  color: #000000;
+  opacity: 1;
+  padding: 15px;
+}
+.package-day .day-title {
+  font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+  letter-spacing: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: black solid;
+}
+.package-day p {
+  font: normal normal normal 16px/20px Gill Sans;
+  letter-spacing: 1.6px;
+}
+
+.bookButton {
+  background-color: #79addc;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  width: 133px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 15px/19px Gill Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.booking-form {
+  margin: 0 auto 100px;
+  width: 70%;
+  text-align: left;
+  font: normal normal 300 18px/23px Gill Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.booking-form * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.booking-form h2 {
+  text-align: left;
+  font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.booking-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bookingName-holder,
+.bookingCountry-holder {
+  width: 42%;
+}
+.bookingName-holder input,
+.bookingCountry-holder input {
+  width: 100%;
+  height: 58px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+
+.bookingHotel-holder,
+.bookingEmail-holder {
+  width: 55%;
+}
+.bookingHotel-holder input,
+.bookingEmail-holder input {
+  width: 100%;
+  height: 58px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+::placeholder {
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.bookingCheckInOut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.bookingCheckInOut label {
+  width: 96px;
+  margin-right: 26px;
+}
+.bookingCheckInOut .inputCal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 58px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+.bookingCheckInOut .inputCal input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.calendar-holder {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  background: transparent url("../images/calendar.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.booking-guests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking-guests-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.booking-guests-holder label {
+  margin-right: 20px;
+}
+.booking-guests-holder input {
+  height: 58px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+.booking-guests-holder select {
+  width: 103px;
+  height: 58px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+
+textarea {
+  width: 100%;
+  height: 192px;
+  border: 1px solid #79addc;
+  opacity: 1;
+}
+
+input[type=submit] {
+  border: none;
+  background-color: #79addc;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  height: 60px !important;
+  width: 100% !important;
+  border-radius: 30px !important;
+}
+
+.about-page-holder {
+  margin: 0 auto 150px;
+  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-page-holder h1 {
+  margin-top: 100px;
+  text-decoration: underline;
+  text-align: left;
+  letter-spacing: 6px;
+  color: #000000;
+  opacity: 1;
+}
+.about-page-holder h2 {
+  text-decoration: underline;
+  margin-top: 100px;
+  text-align: left;
+  letter-spacing: 1.6px;
+  color: #000000;
+  opacity: 1;
+}
+.about-page-holder p {
+  text-align: left;
+  font: normal normal normal 16px/20px Gill Sans;
+  letter-spacing: 1.6px;
+  color: #000000;
+  opacity: 1;
+}
+
+.client {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.client-text {
+  width: 60%;
+  margin: 0 40px;
+}
+
+.client-name {
+  text-align: right;
+  font: normal normal 100 20px/27px Proxima Nova ScOsf Extra Condensed;
+  letter-spacing: 2px;
+  color: #79addc;
+  opacity: 1;
+}
+
+.client-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client-image img {
+  width: 260px;
+  height: 150px;
+}
+
+.contact-page-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+  margin-bottom: 200px;
+}
+
+.contact-page-title {
+  width: 100%;
+}
+.contact-page-title h1 {
+  text-align: left;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-page-title h1 span {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.map {
+  margin-right: 50px;
+  width: 400px;
+}
+
+.map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  background-image: url(https://in-info-web4.informatics.iupui.edu/~arihardw/homework-seven/images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map-address {
+  width: 100%;
+  height: 161px;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  opacity: 1;
+}
+
+.contact-form {
+  width: 529px;
+}
+
+.text-field {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.text-area {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-family: "Gill Sans";
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.form-button {
+  width: 167px;
+  height: 60px;
+  background-color: #79addc;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blog-container .blog-page-title {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 75px;
+}
+.blog-container .blog-page-title h1 {
+  text-align: left;
+  font-family: "Proxima-Nova-Thin";
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+.blog-container .blog-entry {
+  opacity: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.blog-container .blog-entry .blog-entry-date {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blog-container .blog-entry .blog-entry-date .date {
+  background: #79addc 0% 0% no-repeat padding-box;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+.blog-container .blog-entry .blog-entry-date .date .day {
+  text-align: center;
+  font-family: "Gill Sans";
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.blog-container .blog-entry .blog-entry-date .date .month {
+  text-align: center;
+  font-family: "Gill Sans";
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.blog-container .blog-entry .blog-entry-content {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+.blog-container .blog-entry .blog-entry-content .blog-entry-image {
+  width: 100%;
+  background-image: url(https://in-info-web4.informatics.iupui.edu/~arihardw/homework-seven/images/blog.jpg);
+  min-height: 259px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: plum;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.blog-container .blog-entry .blog-entry-content .blog-entry-title h2 {
+  text-align: left;
+  font-family: "Gill Sans";
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 20px;
+}
+.blog-container .blog-entry .blog-entry-content .blog-entry-text {
+  margin-top: 10px;
+  margin-bottom: 10%;
+  margin-left: 20px;
+}
+.blog-container .blog-entry .blog-entry-content .blog-entry-text p {
+  max-width: 380px;
+  text-align: left;
+  font-family: "Gill Sans";
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #79addc;
+  opacity: 1;
+}
+
+.contact-page-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+}
+
+.contact-page-title {
+  width: 100%;
+}
+.contact-page-title h1 {
+  text-align: left;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-page-title h1 span {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.map {
+  margin-right: 50px;
+  width: 400px;
+}
+
+.map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  background-image: url(https://in-info-web4.informatics.iupui.edu/~arihardw/homework-seven/images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map-address {
+  width: 100%;
+  height: 161px;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  opacity: 1;
+}
+
+.contact-form {
+  width: 529px;
+}
+
+.text-field {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.text-area {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-family: "Gill Sans";
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.form-button {
+  width: 167px;
+  height: 60px;
+  background-color: #79addc;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}

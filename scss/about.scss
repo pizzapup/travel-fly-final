@@ -1,0 +1,145 @@
+@use "mixins";
+//
+.about-page-holder {
+  margin: 0 auto 150px;
+  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  h1 {
+    margin-top: 100px;
+    text-decoration: underline;
+    text-align: left;
+    // font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+    letter-spacing: 6px;
+    color: #000000;
+    opacity: 1;
+  }
+  h2 {
+    text-decoration: underline;
+
+    margin-top: 100px;
+    text-align: left;
+    // font: normal normal normal 16px/20px Gill Sans;
+    letter-spacing: 1.6px;
+    color: #000000;
+    opacity: 1;
+  }
+  p {
+    text-align: left;
+    font: normal normal normal 16px/20px Gill Sans;
+    letter-spacing: 1.6px;
+    color: #000000;
+    opacity: 1;
+  }
+}
+.client {
+  margin: 40px 0;
+  display: flex;
+}
+.client-text {
+  width: 60%;
+  margin: 0 40px;
+}
+.client-name {
+  text-align: right;
+  font: normal normal 100 20px/27px Proxima Nova ScOsf Extra Condensed;
+  letter-spacing: 2px;
+  color: #79addc;
+  opacity: 1;
+}
+.client-image {
+  @include cover-background;
+  img {
+    width: 260px;
+    height: 150px;
+  }
+}
+// .miranda {
+//   background-image: url(../images/about-client-01.jpg);
+// }
+// .johnathon {
+//   background-image: url(../images/about-client-02.jpg);
+// }
+
+.contact-page-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+  margin-bottom: 200px;
+}
+.contact-page-title {
+  width: 100%;
+  h1 {
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    span {
+      text-decoration: underline black;
+    }
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.map {
+  margin-right: 50px;
+  width: 400px;
+}
+.map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  background-image: url(https://in-info-web4.informatics.iupui.edu/~arihardw/homework-seven/images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map-address {
+  width: 100%;
+  height: 161px;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #000000;
+  opacity: 1;
+}
+.contact-form {
+  width: 529px;
+}
+.text-field {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  // font-family: "Gill Sans";
+  font-size: 16px;
+}
+.text-area {
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-family: "Gill Sans";
+  font-size: 16px;
+  padding-top: 20px;
+}
+.form-button {
+  width: 167px;
+  height: 60px;
+  background-color: #79addc;
+  // font-family: "Gill Sans";
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}

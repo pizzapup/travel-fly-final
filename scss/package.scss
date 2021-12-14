@@ -1,0 +1,76 @@
+@use "mixins";
+//
+.package-wrapper {
+  @include flex-SA;
+  flex-direction: column;
+  * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.package-hero {
+  height: 413px;
+  width: 981px;
+  @include cover-background;
+  position: relative;
+  h1 {
+    text-align: left;
+    font: normal normal 100 80px/106px Gill Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  p {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.package-gallery {
+  @include flex-SE;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  filter: brightness(50%);
+  width: 298px;
+  height: 347px;
+  opacity: 1;
+  margin: 25px;
+  @include cover-background;
+}
+
+.package-day {
+  text-align: left;
+  color: #000000;
+  opacity: 1;
+  padding: 15px;
+  .day-title {
+    font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
+    letter-spacing: 6px;
+    width: fit-content;
+    border-bottom: black solid;
+  }
+  p {
+    font: normal normal normal 16px/20px Gill Sans;
+    letter-spacing: 1.6px;
+  }
+}
+.bookButton {
+  @include blueButton;
+  width: 133px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 15px/19px Gill Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}

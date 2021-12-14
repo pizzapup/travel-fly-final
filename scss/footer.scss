@@ -1,0 +1,22 @@
+@use "mixins";
+//
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: $lightBlue;
+}
+.footer-content {
+  @include flex-SA;
+  height: 100%;
+}
+.footer-copyright {
+  text-align: center;
+  font: normal normal normal 12px/15px Gill Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.footer-social {
+  @include flex-SE;
+  width: 10%;
+}
