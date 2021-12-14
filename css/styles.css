@@ -816,11 +816,21 @@ input[type=submit] {
   width: 260px;
   height: 150px;
 }
-.miranda {
-  background-image: url(images/about-client-01.jpg);
+.client-one {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-01.jpg);
 }
 
-.johnathon {
+.client-two {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
   background-image: url(../images/about-client-02.jpg);
 }
 
