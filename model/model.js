@@ -262,7 +262,6 @@ var MODEL = (function () {
     <h2>CLIENT QUOTES:</h2>
     <div class="client">
       <div class="client-image client-one">
-        <img src="/images/about-client-01.jpg" alt="" />
       </div>
       <div class="client-text">
         <p>
@@ -276,7 +275,6 @@ var MODEL = (function () {
     </div>
     <div class="client">
       <div class="client-image client-two">
-        <img src="/images/about-client-02.jpg" alt="" />
       </div>
       <div class="client-text">
         <p>
@@ -442,7 +440,7 @@ function loadData(pageName) {
     console.log("idx: ", idx);
     console.log("tour: ", tour);
     $(".tour-gallery").append(`
-       <div class="card-holder hero-overlay"  style="background-image: url(../images/tour/${toursData[idx].tourImgHero})">
+       <div class="card-holder hero-overlay"  style="background-image: url(images/tour/${toursData[idx].tourImgHero})">
           <div class="card-content">
             <div class="card-top">
               <h2>${tour.tourTitle}</h2>
@@ -476,7 +474,7 @@ function loadOffers() {
   $.each(SPECIALOFFERS, function (idx, offer) {
     $(".offer-gallery").append(`
     <div class="offer-card">
-    <div class="offer-image hero-overlay"  style="background-image: url(../images/${offer.offerImg})">
+    <div class="offer-image hero-overlay"  style="background-image: url(images/${offer.offerImg})">
     </div>
     <div class="offer-details-holder">
       <div class="offer-top-holder">
@@ -503,14 +501,14 @@ function initTourListeners() {
     $("#app").html(`
     <div class="package-wrapper">
    
-    <div class="package-hero" style="background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/tour/${TOURS[idx].tourImgHero})">
+    <div class="package-hero" style="background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(images/tour/${TOURS[idx].tourImgHero})">
       <h1>${TOURS[idx].tourTitle}</h1>
       <p>STARTING FROM ${TOURS[idx].tourPrice} (prices may vary)</p>
     </div>
     <div class="package-gallery">
-      <div class="package-card" style="background-image: url(../images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgOne})"></div>
-      <div class="package-card" style="background-image: url(../images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgTwo})"></div>
-      <div class="package-card" style="background-image: url(../images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgThree})"></div>
+      <div class="package-card" style="background-image: url(images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgOne})"></div>
+      <div class="package-card" style="background-image: url(images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgTwo})"></div>
+      <div class="package-card" style="background-image: url(images/tour/${TOURS[idx].tourFolder}/${TOURS[idx].tourImgThree})"></div>
     </div>
     <div class="package-days">
       <div class="package-day">

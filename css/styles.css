@@ -227,7 +227,6 @@ footer {
 }
 
 .card-content {
-  background-image: url(../images/overlay.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -814,10 +813,15 @@ input[type=submit] {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.client-image img {
   width: 260px;
   height: 150px;
+}
+.miranda {
+  background-image: url(images/about-client-01.jpg);
+}
+
+.johnathon {
+  background-image: url(../images/about-client-02.jpg);
 }
 
 .contact-page-container {

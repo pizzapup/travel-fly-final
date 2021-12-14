@@ -48,17 +48,18 @@
 }
 .client-image {
   @include cover-background;
+  width: 260px;
+  height: 150px;
   img {
-    width: 260px;
-    height: 150px;
+
   }
 }
-// .miranda {
-//   background-image: url(../images/about-client-01.jpg);
-// }
-// .johnathon {
-//   background-image: url(../images/about-client-02.jpg);
-// }
+.miranda {
+  background-image: url(images/about-client-01.jpg);
+}
+.johnathon {
+  background-image: url(../images/about-client-02.jpg);
+}
 
 .contact-page-container {
   margin-left: 15%;

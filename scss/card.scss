@@ -9,7 +9,7 @@
   @include cover-background;
 }
 .card-content {
-  background-image: url(../images/overlay.svg);
+  // background-image: url(../images/overlay.svg);
   @include cover-background;
   @include flex-SE;
   flex-direction: column;
