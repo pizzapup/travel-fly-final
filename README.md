@@ -1,6 +1,19 @@
 # [TravelFly SPA](https://in-info-web4.informatics.iupui.edu/~arihardw/homework-ten/#home)
-## Application Overview (travel-fly): 
-Responsive single-page application designed with HTML5, CSS3, JavaScript, ScSS, SaSS, JSON and hosted on Web4 server. Application design based on AdobeXD prototype. Forms do not handle data. 
+
+## Application Overview (travel-fly):
+
+Responsive single-page application designed with HTML5, CSS3, JavaScript, ScSS, SaSS, JSON and hosted on Web4 server. Application design based on AdobeXD prototype.
+
+\*\* Forms do not handle data
+
+Features/Tools:
+
+- HTML
+- Standard JavaScript
+- JSON
+- SaSS/ScSS [sass-lang.com](https://sass-lang.com/)
+- Vercel [Vercel.com](https://vercel.com/docs)
+- AdobeXD [AdobeXD Product](https://www.adobe.com/products/xd.html)
 
 > TravelFly Site: [view](https://in-info-web4.informatics.iupui.edu/~arihardw/homework-ten/#home)
 
