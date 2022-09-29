@@ -2,7 +2,7 @@
 
 ## Application Overview (travel-fly):
 
-Responsive single-page application designed with HTML5, CSS3, JavaScript, ScSS, SaSS, JSON and hosted on Web4 server. Application design based on AdobeXD prototype.
+Responsive HTML/SaSS/JavaScript SPA based on AdobeXD prototype.
 
 \*\* Forms do not handle data
 
