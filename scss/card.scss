@@ -1,13 +1,15 @@
 @use "mixins";
+
 //
 .card-holder {
-  background-color: pink;
+  background-color: #fafafa;
   width: 236px;
   height: 304px;
   // opacity: 0.5;
   margin: 25px;
   @include cover-background;
 }
+
 .card-content {
   // background-image: url(../images/overlay.svg);
   @include cover-background;
@@ -19,17 +21,21 @@
   color: #ffffff;
   opacity: 1;
 }
+
 .card-top {
   h2 {
     font: normal normal 100 60px/80px Proxima Nova ScOsf Extra Condensed;
   }
+
   p {
     font: normal normal 100 30px/40px Proxima Nova ScOsf Extra Condensed;
   }
 }
+
 .card-bottom {
   @include flex-centered;
 }
+
 .card-button {
   @include blueButton;
   width: 133px;
@@ -44,10 +50,12 @@
   height: 287px;
   margin: 40px;
 }
+
 .offer-image {
   @include cover-background;
   width: 199px;
   height: 287px;
+
   img {
     width: 199px;
     // background: transparent url('img/f8be878f3e256c54c10350fc7b400f35.png') 0% 0% no-repeat padding-box;
@@ -55,6 +63,7 @@
     height: 100%;
   }
 }
+
 .offer-details-holder {
   width: 40%;
   margin-left: 20px;
@@ -62,11 +71,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .offer-description {
   margin-top: 15px;
 }
+
 .offer-card-top {
   display: flex;
+
   .offer-title-h {
     text-align: left;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -80,6 +92,7 @@
     opacity: 1;
   }
 }
+
 .learnMoreButton {
   width: 133px;
   height: 40px;
@@ -88,11 +101,13 @@
   opacity: 1;
   @include blueButton;
 }
+
 .learnMoreButton-holder {
   height: 50%;
   display: flex;
   align-items: flex-end;
 }
+
 .offer-discount {
   text-align: left;
   font-size: 20px;

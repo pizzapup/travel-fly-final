@@ -217,7 +217,7 @@ footer {
 }
 
 .card-holder {
-  background-color: pink;
+  background-color: #fafafa;
   width: 236px;
   height: 304px;
   margin: 25px;
@@ -434,7 +434,7 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 70%;
+  width: 80%;
 }
 
 .package-wrapper {
