@@ -1,4 +1,4 @@
-# [TravelFly SPA](https://in-info-web4.informatics.iupui.edu/~arihardw/homework-ten/#home)
+# [TravelFly SPA](https://travelfly.vercel.app/)
 
 ## Application Overview (travel-fly):
 
@@ -15,8 +15,8 @@ Features/Tools:
 - Vercel [Vercel.com](https://vercel.com/docs)
 - AdobeXD [AdobeXD Product](https://www.adobe.com/products/xd.html)
 
-> TravelFly Site: [view](https://in-info-web4.informatics.iupui.edu/~arihardw/homework-ten/#home)
+> View TravelFly Site: [travelfly.vercel.app](https://travelfly.vercel.app/)
 
-> AdobeXD Prototype: [view](https://xd.adobe.com/view/b14c8f9b-eae8-4b8b-b5d3-f58b703b5667-e41f/?fullscreen)
+> View AdobeXD Prototype: [xd.adobe.com](https://xd.adobe.com/view/b14c8f9b-eae8-4b8b-b5d3-f58b703b5667-e41f/?fullscreen)
 
-![travelyfly-home](https://user-images.githubusercontent.com/57334884/155585321-ebe500a0-a13a-4a23-8145-b45601bc1f6c.png)
+![screenshot of travelfly home page](https://user-images.githubusercontent.com/57334884/155585321-ebe500a0-a13a-4a23-8145-b45601bc1f6c.png)
